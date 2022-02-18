@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">MyRem</string>
+    <string name="navigation_drawer_open">Buksan ang navigation drawer</string>
+    <string name="navigation_drawer_close">Isara ang drawer ng nabigasyon</string>
+
+    <string name="navigation_home">Bahay</string>
+    <string name="navigation_policy">Patakaran sa privacy</string>
+    <string name="navigation_rate">Rate sa amin</string>
+    <string name="navigation_vibration">panginginig ng boses</string>
+    <string name="navigation_more">Higit pang mga app</string>
+    <string name="navigation_share">Ibahagi ang app</string>
+    <string name="change_language">Baguhin ang Wika</string>
+    <string name="navigation_exit">Lumabas</string>
+    <string name="instructions">Mga tagubilin</string>
+
+
+
+    <string name="rateus">Tinatangkilik ang App?</string>
+    <string name="sorry">Info:</string>
+    <string name="ok">OK</string>
+    <string name="it_okay">Ayos lang</string>
+    <string name="cancel">CANCEL</string>
+    <!--side_bar_info-->
+    <!--home_screen_info-->
+    <string name="first_point">Ang mga telepono o Mga Tablet na may built in IR blaster ay kinakailangan para sa Tradisyunal na mga aparatong IR TV.</string>
+    <string name="second_point">Ang mga Smart TV ay sinusuportahan na ngayon ng aming App, Ang kailangan mo lang gawin ay upang ikonekta ang iyong telepono at ang iyong Smart TV sa parehong wifi network at handa ka nang pumunta!</string>
+    <string name="third_point">Kung ang App ay hindi gumagana sa iyong TV o Ang iyong TV brand ay hindi nakalista, mangyaring makipag-ugnay sa amin gamit ang pindutan ng Email sa home page.</string><!--multi_language-->
+    <!--rate_us_popup-->
+    <string name="rate_us_title">Suporta sa Amin</string>
+    <string name="rate_us_message">Kung masiyahan ka sa paggamit ng App na ito, sasagutin mo ba ang sandaling i-rate ito? Hindi ito aabutin ng higit sa isang minuto. Salamat sa iyong suporta!</string>
+    <string name="rate_us_cancel">Hindi</string>
+    <string name="rate_us_ok">Oo!</string><!--share_app_text-->
+    <string name="download_this">Tiyaking subukan ang kapaki-pakinabang na App na ito!</string><!--exit_app_text-->
+    <string name="exit_desc">Sigurado ka ba na gusto mong lumabas sa application?</string>
+    <string name="exit_yes">Oo</string>
+    <string name="exit_no">Hindi</string>
+    <!--Feedback screen-->
+    <string name="leave_feedback">Mag-iwan ng opinyon</string>
+    <string name="help_us">Tulungan kaming pabutihin</string>
+    <string name="feedback_detail">Gustung-gusto naming malaman kung paano namin maaaring gawing mas mahusay ang App na ito at gawing masaya ang iyong karanasan dito!</string>
+    <string name="contact_us">Tulong</string><!--Rate us-->
+    <string name="thanks_for_the_love">Salamat sa pag-ibig!</string>
+    <string name="rate_us_detail">Kami ay masaya na gusto mo gamit ang aming App! Gusto naming pinahahalagahan kung maaari kang maglaan ng sandali upang i-rate kami sa Play Store!</string>
+    <string name="rate_us_">Rate sa Amin!</string><!--Third exit from app-->
+    <string name="do_you_love_this_app">Gustung-gusto mo ba ang App na ito?</string>
+    <string name="nah">Hindi</string>
+    <string name="i_like_it">Gusto ko ito!</string>
+    <string name="rate_text">Pakisabi sa amin kung\nano ang iyong iniisip</string>
+    <string name="contact_text">ipaalam sa amin kung paano namin mapapabuti</string>
+
+    <dimen name="view_height1">326dp</dimen>
+    <dimen name="view_height2">176dp</dimen>
+
+    <!--liveAds-->
+
+    <string name="app_id">ca-app-pub-3424164443057663~2794304363</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3424164443057663/2994874093</string>
+    <string name="interstitial_full_screen">ca-app-pub-3424164443057663/8985567374</string>
+    <string name="native_ad">ca-app-pub-3424164443057663/4209751718</string>
+    <string name="open_ad">ca-app-pub-3424164443057663/3388647336</string>
+
+
+    <!--adMob TestID-->
+    <!--<string name="app_id">ca-app-pub-3424164443057663~2794304363</string>-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="native_ad">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--<string name="open_ad">ca-app-pub-3940256099942544/3419835294</string>-->
+
+
+    <!-- EX:  https://play.google.com/store/apps/developer?id=Universal+Apps+LLC -->
+    <!--you have to replace Universal+Apps+LLC-->
+    <string name="moreApps">https://play.google.com/store/apps/developer?id=SoomApps</string>
+
+
+    <string name="action_lag">Piliin ang Iyong Wika</string>
+    <string name="ad_attribution">Ad</string>
+
+
+    <string name="Back">Back</string>
+    <string name="CH">CH</string>
+    <string name="Click">Click</string>
+    <string name="Input">Input</string>
+    <string name="OK">OK</string>
+    <string name="VOL">VOL</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cast_notification_connected_message">Connected to %1$s</string>
+    <string name="cast_notification_connecting_message">Connecting to %1$s</string>
+    <string name="cast_notification_disconnect">Disconnect</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="connect_sdk_connection_failed">Enter pairing code displayed on TV</string>
+    <string name="connect_sdk_pairing_pin_prompt_tv">Enter pairing code displayed on TV</string>
+    <string name="connect_sdk_pairing_simple_prompt_tv">Confirm pairing on the TV</string>
+    <string name="connect_sdk_pairing_simple_title_tv">Pairing request</string>
+    <string name="connect_sdk_picker_select_device">Select a device</string>
+
+
+    <string name="connect_toast">Make sure your TV and mobile device are connected to the same WiFi Network</string>
+    <string name="connection_manager_action_disconnect">Disconnect</string>
+
+
+    <!--<string name="default_web_client_id">18990572224-37n9gbl6ctsqs0h1kamf524238r8l0ob.apps.googleusercontent.com</string>
+    <string name="firebase_database_url">https://admob-app-id-7207272115.firebaseio.com</string>
+    <string name="gcm_defaultSenderId">18990572224</string>
+    <string name="google_api_key">AIzaSyAuvpFB3mL6SN51IDSIwg7mrOMgbBiumrA</string>
+    <string name="google_app_id">1:18990572224:android:897e37687d2bebd1</string>
+    <string name="google_crash_reporting_api_key">AIzaSyAuvpFB3mL6SN51IDSIwg7mrOMgbBiumrA</string>
+    <string name="google_storage_bucket">admob-app-id-7207272115.appspot.com</string> -->
+    <string name="mr_system_route_name">System</string>
+    <string name="mr_user_route_category_name">Devices</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="s1">I-save ang imahe</string>
+    <string name="s2">Payagan ang Ad upang mag-imbak ng imahe sa Picture gallery?</string>
+    <string name="s3">Tanggapin</string>
+    <string name="s4">Tanggihan</string>
+    <string name="s5">Lumikha ng kaganapan sa kalendaryo</string>
+    <string name="s6">Payagan ang Ad upang lumikha ng isang kaganapan sa kalendaryo?</string>
+    <string name="s7">Test Ad</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="search_tv_brand">Maghanap</string>
+    <string name="back_to_exit">Press Back again to exit</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="menu">Menu</string>
+    <string name="delete">Tanggalin</string>
+    <string name="select_tv_brand_menu">Piliin Ang Iyong TV</string>
+    <string name="my_devices">Paboritong Listahan</string>
+    <string name="no_app">Hindi mahanap ang app</string>
+    <string name="my_fav_list">Paboritong Listahan</string>
+    <string name="plz_add_to_fav">Mangyaring magdagdag ng paboritong device muna</string>
+    <string name="added_to_fav">Added to Favorite</string>
+    <string name="rate_us">Tinatangkilik ang app?</string>
+    <string name="select_your_tv_brand">Piliin Ang Iyong TV</string>
+    <string name="ratingMessage">Thanks! We are waiting for your 5-Star!</string>
+    <string name="Add_your_favourite">Idagdag ang iyong mga paboritong remote sa pahinang ito. Narito kung paano:</string>
+    <string name="add">Idagdag</string>
+</resources>

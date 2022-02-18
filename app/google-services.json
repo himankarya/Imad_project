@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "30797708641",
+    "firebase_url": "https://myrem-ef78a.firebaseio.com",
+    "project_id": "myrem-ef78a",
+    "storage_bucket": "myrem-ef78a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30797708641:android:39cebc0b7423fdc8129920",
+        "android_client_info": {
+          "package_name": "com.soomapps.universalremotecontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30797708641-7hb0poenl5brqdjqj9gpj56vbh63urfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soomapps.universalremotecontrol",
+            "certificate_hash": "11a19a4d89137c85b37fe2780f378283342d5ceb"
+          }
+        },
+        {
+          "client_id": "30797708641-mq9mgvt65jtigsfqrctnancju2u7tidk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADEd6NoXfRBt-9UVIcln83bH6AmX2VFFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30797708641-mq9mgvt65jtigsfqrctnancju2u7tidk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/ll_power"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip"
+                android:layout_marginTop="5.0dip"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonHome"
+                    android:layout_width="60.0dip"
+                    android:layout_height="60.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/home_button"
+                    android:paddingTop="5.0dip" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/powerOnOff"
+                        android:layout_width="70.0dip"
+                        android:layout_height="70.0dip"
+                        android:layout_margin="5.0dip"
+                        android:background="@drawable/power"
+                        android:gravity="center"
+                        android:paddingTop="8.0dip" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/mute"
+                    android:layout_width="60.0dip"
+                    android:layout_height="60.0dip"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:button="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/mute_3"
+                    android:paddingRight="8.0dip" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llbar3"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="10.0dip"
+                android:orientation="horizontal"
+                android:weightSum="120.0">
+
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="start"
+                    android:layout_weight="60.0">
+
+                    <Button
+                        android:id="@+id/browse_gallery"
+                        android:layout_width="60.0dip"
+                        android:layout_height="60.0dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/media"
+                        android:paddingTop="10.0dip" />
+
+                    <Button
+                        android:id="@+id/all_channels"
+                        android:layout_width="60.0dip"
+                        android:layout_height="60.0dip"
+                        android:layout_alignTop="@id/browse_gallery"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_toEndOf="@+id/browse_gallery"
+                        android:layout_toRightOf="@+id/browse_gallery"
+                        android:background="@drawable/ch_list"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text_black_theme"
+                        android:textSize="11.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="end"
+                    android:layout_weight="60.0">
+
+                    <Button
+                        android:id="@+id/btn_mouse"
+                        android:layout_width="60.0dip"
+                        android:layout_height="60.0dip"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_toLeftOf="@+id/all_apps"
+                        android:layout_toStartOf="@+id/all_apps"
+                        android:background="@drawable/mouse"
+                        android:padding="8.0dip" />
+
+                    <Button
+                        android:id="@+id/all_apps"
+                        android:layout_width="60.0dip"
+                        android:layout_height="60.0dip"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/apps"
+                        android:padding="10.0dip"
+                        android:text="Apps"
+                        android:textColor="@color/text_black_theme"
+                        android:textSize="11.0sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="220.0dip"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:id="@+id/ll_mouse"
+                        android:layout_width="fill_parent"
+                        android:layout_height="220.0dip"
+                        android:layout_gravity="center"
+                        android:padding="5.0dip"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/openKeyboardButton"
+                            android:layout_width="100.0dip"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="10.0dip"
+                            android:background="@drawable/mousepad_click"
+                            android:text="@string/Click"
+                            android:textColor="#ffffffff" />
+
+                        <EditText
+                            android:id="@+id/editField"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:ems="10"
+                            android:inputType="text"
+                            android:textColor="@android:color/transparent" />
+
+                        <RelativeLayout
+                            android:id="@+id/trackpadView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@color/colorAccent" />
+
+                        <Button
+                            android:id="@+id/clickButton"
+                            android:layout_width="100.0dip"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/mousepad_click"
+                            android:text="@string/Click"
+                            android:textAllCaps="false"
+                            android:textColor="@color/background_black" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:textColor="#ff595959"
+                            android:textSize="30.0dip" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ll_left"
+                        android:layout_width="60.0dip"
+                        android:layout_height="182.0dip"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:background="@drawable/vol_chnl_button"
+                        android:padding="1.0dip">
+
+                        <Button
+                            android:id="@+id/volume_UP"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/square_button_top"
+                            android:drawableTop="@drawable/up_button"
+                            android:paddingTop="15.0dip" />
+
+                        <TextView
+                            android:id="@+id/textView_vol"
+                            android:layout_width="fill_parent"
+                            android:layout_height="85.0dip"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="@string/VOL"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_black_theme"
+                            android:textSize="16.0dip"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/volume_DOWN"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/square_button"
+                            android:drawableBottom="@drawable/down_button"
+                            android:paddingBottom="15.0dip" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_dialpad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7.0dip"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/button1"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="1"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+
+                            <Button
+                                android:id="@+id/button2"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="2"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+
+                            <Button
+                                android:id="@+id/button3"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="3"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/button4"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="4"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+
+                            <Button
+                                android:id="@+id/button5"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="5"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+
+                            <Button
+                                android:id="@+id/button6"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="6"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/button7"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="7"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+
+                            <Button
+                                android:id="@+id/button8"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="8"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+
+                            <Button
+                                android:id="@+id/button9"
+                                android:layout_width="44.0dip"
+                                android:layout_height="44.0dip"
+                                android:layout_marginBottom="4.0dip"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@drawable/numeric_button_bg"
+                                android:text="9"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="14.0dip" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button0"
+                            android:layout_width="44.0dip"
+                            android:layout_height="44.0dip"
+                            android:background="@drawable/numeric_button_bg"
+                            android:text="0"
+                            android:textColor="@color/text_black_theme"
+                            android:textSize="14.0dip" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ll_circle"
+                        android:layout_width="182.0dip"
+                        android:layout_height="182.0dip"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="10.0dip"
+                        android:background="@drawable/remote_bg"
+                        android:padding="2.0dip">
+
+                        <Button
+                            android:id="@+id/Ok_left"
+                            android:layout_width="40.0dip"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_click"
+                            android:drawableLeft="@drawable/button_remote_left"
+                            android:drawableStart="@drawable/button_remote_left"
+                            android:paddingLeft="5dp"
+                            android:paddingStart="5dp" />
+
+                        <RelativeLayout
+                            android:id="@+id/ll_circle_ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical"
+                            android:padding="@dimen/_5sdp">
+
+                            <Button
+                                android:id="@+id/Ok_Up"
+                                android:layout_width="40.0dip"
+                                android:layout_height="40.0dip"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/circle_click"
+                                android:drawableTop="@drawable/button_remote_up"
+                                android:paddingTop="5.0dip" />
+
+                            <Button
+                                android:id="@+id/Ok"
+                                android:layout_width="58.0dip"
+                                android:layout_height="58.0dip"
+                                android:layout_centerInParent="true"
+                                android:layout_margin="5.0dip"
+                                android:background="@drawable/button_ok"
+                                android:gravity="center"
+                                android:textColor="@color/text_black_theme"
+                                android:textSize="16.0dip" />
+
+                            <Button
+                                android:id="@+id/OK_Down"
+                                android:layout_width="40.0dip"
+                                android:layout_height="40.0dip"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/circle_click"
+                                android:drawableBottom="@drawable/button_remote_down"
+                                android:paddingBottom="5.0dip" />
+                        </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/Ok_right"
+                            android:layout_width="40.0dip"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_click"
+                            android:drawableEnd="@drawable/button_remote_right"
+                            android:drawableRight="@drawable/button_remote_right"
+                            android:paddingEnd="5.0dip"
+                            android:paddingRight="5.0dip" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ll_right"
+                        android:layout_width="60.0dip"
+                        android:layout_height="182.0dip"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/vol_chnl_button"
+                        android:padding="1.0dip">
+
+                        <Button
+                            android:id="@+id/channel_UP"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/square_button_top"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/up_button"
+                            android:paddingTop="5.0dip" />
+
+                        <TextView
+                            android:id="@+id/textView_ch"
+                            android:layout_width="fill_parent"
+                            android:layout_height="85.0dip"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="@string/CH"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_black_theme"
+                            android:textSize="16.0dip"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/channel_DOWN"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/square_button"
+                            android:clickable="true"
+                            android:drawableBottom="@drawable/down_button"
+                            android:paddingBottom="5.0dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_bar2"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_below="@id/llbar3"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back_Button"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back_input_button_bg"
+                    android:text="@string/Back"
+                    android:textColor="@color/text_black_theme"
+                    android:textSize="10.0sp" />
+
+                <Button
+                    android:id="@+id/btn_dialpad2"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/numeric_button" />
+
+                <Button
+                    android:id="@+id/buttonInput"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back_input_button_bg"
+                    android:text="@string/Input"
+                    android:textColor="@color/text_black_theme"
+                    android:textSize="11.0dip" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/below_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_below="@id/ll_bar2"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/freverse"
+                    android:layout_width="47.0dip"
+                    android:layout_height="47.0dip"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/fast_backward_button" />
+
+                <Button
+                    android:id="@+id/previous"
+                    android:layout_width="47.0dip"
+                    android:layout_height="47.0dip"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/play_last_button" />
+
+                <Button
+                    android:id="@+id/play_Button"
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/play_button"
+                    android:paddingLeft="@dimen/_4sdp"
+                    android:paddingStart="@dimen/_4sdp" />
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="47.0dip"
+                    android:layout_height="47.0dip"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/play_next_button" />
+
+                <Button
+                    android:id="@+id/fforward"
+                    android:layout_width="47.0dip"
+                    android:layout_height="47.0dip"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/fast_forward_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00707070"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>

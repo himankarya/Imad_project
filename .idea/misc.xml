@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../../layout/custom_preview.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/abc_btn_borderless_material.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/abc_btn_check_material.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/abc_btn_colored_material.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/abc_ic_ab_back_material.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/abc_vector_test.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/add_tv_rounded_button_bg.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/border_favourite_new.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/button_down.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/button_remote_right.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/button_right.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/button_up.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/change_language_sidebar.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/fill_rating_third_icon.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/frameround.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/gradient_left.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/gradient_numeric.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/gradient_power.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/gradient_remote_up.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_home_favorite_24.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_star_icon_third.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_stars_blank.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/menu_orange.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/mousepad_click.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/notification_bg_low.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_android_tv.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_feedback.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_info.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_multiple_remote.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_multiple_remote_2.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_my_device.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_native_app_install_ad.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_ok_got_it.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_policy.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_rate_us.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_remote.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_remote_2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_tvlist.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/ad_unified.xml" value="0.13" />
+        <entry key="app/src/main/res/layout/ad_unified_drawer.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/ad_unified_info.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/ad_unified_main.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/ad_unified_main_2.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/ad_unified_remote.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/contact_popup_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/demo_center_layout.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/fav_list_items.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/iv_refresh.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_switch.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/list_items.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/pop_up1.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/pop_up_dialog.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/pop_up_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/popup_rating.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/poweronoff_seperate.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/wifi_tv_newlikesony.xml" value="0.1703125" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.1703125" />
+        <entry key="app/src/main/res/menu/mainmenu.xml" value="0.1703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <!--<group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/navigation_home" />
+    </group>-->
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/change_language_sidebar"
+            android:title="@string/change_language"
+            />
+    </group>
+
+    <group
+        android:id="@+id/grp8"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_vibration"
+            android:icon="@drawable/ic_baseline_vibration_24"
+            android:title="@string/navigation_vibration"
+            app:actionLayout="@layout/layout_switch"/>
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_rate"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/navigation_rate" />
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_more"
+            android:icon="@drawable/ic_more"
+            android:title="@string/navigation_more" />
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/navigation_share" />
+    </group>
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_policy"
+            android:icon="@drawable/ic_policy"
+            android:title="@string/navigation_policy" />
+    </group>
+    <!--<group
+        android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/navigation_exit" />
+    </group>-->
+
+    <group
+        android:id="@+id/grp7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ad_settings"
+            android:icon="@drawable/ad_settings_icon"
+            android:title="@string/ad_settings" />
+    </group>
+
+    <!--  <group android:checkableBehavior="single">
+          <item
+              android:id="@+id/nav_camera"
+              android:icon="@drawable/ic_menu_camera"
+              android:title="Import" />
+          <item
+              android:id="@+id/nav_gallery"
+              android:icon="@drawable/ic_menu_gallery"
+              android:title="Gallery" />
+          <item
+              android:id="@+id/nav_slideshow"
+              android:icon="@drawable/ic_menu_slideshow"
+              android:title="Slideshow" />
+          <item
+              android:id="@+id/nav_manage"
+              android:icon="@drawable/ic_menu_manage"
+              android:title="Tools" />
+      </group>
+
+      <item android:title="Communicate">
+          <menu>
+              <item
+                  android:id="@+id/nav_share"
+                  android:icon="@drawable/ic_menu_share"
+                  android:title="Share" />
+              <item
+                  android:id="@+id/nav_send"
+                  android:icon="@drawable/ic_menu_send"
+                  android:title="Send" />
+          </menu>
+      </item>-->
+
+</menu>

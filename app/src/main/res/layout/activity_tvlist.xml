@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".TVListActivity">
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/fl_adplaceholder"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="@dimen/_2sdp"-->
+        <!--android:layout_marginStart="@dimen/_20sdp"-->
+        <!--android:layout_marginEnd="@dimen/_20sdp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:iconifiedByDefault="false"
+        app:searchIcon="@null"
+        app:queryHint="@string/search_tv_brand" />
+        <!--android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineTV"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_above="@id/recycleView"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        />
+    <!--android:background="@color/white"-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView"
+        android:scrollbars="vertical" />
+
+   <!-- <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />-->
+</RelativeLayout>
